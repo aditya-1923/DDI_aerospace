@@ -1,0 +1,38 @@
+/* Logo + Name wrapper */
+.logo-name-wrapper {
+    display: flex;
+    align-items: center;
+    margin-right: 3.5rem; /* Space between logo+name and menu */
+}
+
+/* Menu item spacing */
+.menu-item {
+    margin-right: 2cm; /* 2cm gap between tabs */
+    position: relative; /* For optional underline */
+}
+
+.menu-item:last-child {
+    margin-right: 0; /* No extra space after last tab */
+}
+
+/* Active tab styling */
+.active-tab {
+    color: #007bff; /* Highlight color */
+    font-weight: 700;
+}
+
+/* Optional: underline for active tab */
+.active-tab::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #007bff;
+    margin-top: 2px;
+    border-radius: 2px;
+}
+
+/* Optional: hover effect for menu items */
+.menu-item:hover {
+    color: #0056b3;
+}

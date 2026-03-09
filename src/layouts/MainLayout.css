@@ -1,0 +1,8 @@
+.main-layout {
+  width: 100%;
+}
+
+.main-layout main {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}

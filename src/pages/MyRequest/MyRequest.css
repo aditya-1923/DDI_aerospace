@@ -1,0 +1,29 @@
+.right-panel {
+  width: 280px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: #f7f9fb;
+}
+ 
+.status-card {
+  background: #fff;
+  border-radius: 4px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+ 
+.count {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+ 
+.label {
+  font-size: 14px;
+  color: #555;
+}
